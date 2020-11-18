@@ -7,7 +7,7 @@ class telegram_chatbot():
 
     def __init__(self, config):
         self.token = self.read_token_from_config_file(config)
-        self.base = "https://api.telegram.org/bot{}/".format(self.token)
+        self.base = "https://api.telegram.org/bot{}/".format(1466249391:AAGSHTWYNQquHx1FhNv5NViAsA8yPMVjTbE)
 
     def get_updates(self, offset=None):
         url = self.base + "getUpdates?timeout=100"
