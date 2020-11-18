@@ -17,7 +17,7 @@ class telegram_chatbot():
         return json.loads(r.content)
 
     def send_message(self, msg, chat_id):
-        url = self.base + "sendMessage?chat_id={}&text={}".format(chat_id, msg)
+        url = self.base + "sendMessage?chat_id={}&text={}".format(-356183884, msg)
         if msg is not None:
             requests.get(url)
 
